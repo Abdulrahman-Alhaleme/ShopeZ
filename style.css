@@ -1,0 +1,185 @@
+:root {
+    --green: #76B5C4;
+    --section-color: #eff7fa;
+}
+
+* {
+    text-transform: capitalize;
+}
+
+/* Start nav-bar */
+nav {
+    background-color: black;
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--green);
+}
+
+
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+
+.navbar .line {
+    height: 25px;
+    width: 5px;
+    margin-left: 15px;
+    border-left: 2px solid white;
+}
+
+/* End nav-bar */
+
+/* Start landing */
+.landing {
+    background-image: url(/images/home-page-img.png);
+    min-height: calc(100vh - 72px);
+}
+
+.landing .btn {
+    padding: 1rem 4rem;
+}
+
+/* End landing */
+
+/* Start features */
+
+.main-titale i {
+    font-size: 5rem;
+}
+
+.main-titale::after {
+    content: '';
+    width: 120px;
+    height: 2px;
+    background-color: var(--green);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.features .icon-holder {
+    height: 200px;
+
+}
+
+.features .icon-holder svg {
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.features .icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+}
+
+.features .icon-holder .icon {
+    color: black;
+}
+
+.features h4 {
+    color: yellow;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* End features */
+
+
+/* Start subscription */
+
+.subscription {
+    background-color: var(--section-color);
+}
+
+.s-feat1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/images/Screenshot\ 2023-04-23\ 062814.jpg);
+    background-size: cover;
+    height: 20rem;
+}
+
+.s-feat1 .btn {
+    padding: 5px 15px;
+}
+
+.s-feata {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/images/Screenshot\ 2023-04-23\ 075524.png);
+    background-size: cover;
+    height: 20rem;
+}
+
+.s-featb {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/images/Screenshot\ 2023-04-23\ 080005.png);
+    background-size: cover;
+    height: 20rem;
+}
+
+.s-feat2 {
+    padding: 40px;
+    background-color: white;
+    height: 32rem;
+}
+
+.s-feat2 h2 {
+    margin-bottom: 5rem;
+}
+
+.s-feat2 p {
+    margin-bottom: 2rem;
+}
+
+.s-feats {
+    margin-bottom: 20px;
+}
+
+/* End subscription */
+
+
+
+/* Start about */
+
+.a-feat1 h1 {
+    font-weight: bold;
+    font-size: 5rem;
+    padding: 5rem;
+}
+
+.a-feat1 p {
+    font-size: 3rem;
+}
+
+/* End about */
+
+/* Start footer */
+.footer {
+    background-color: black;
+}
+
+.f-feat2 i {
+    font-size: 2rem;
+}
+
+/* End footer */
