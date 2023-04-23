@@ -41,7 +41,7 @@ nav {
 
 /* Start landing */
 .landing {
-    background-image: url(/images/home-page-img.png);
+    background-image: url(./images/home-page-img.png);
     min-height: calc(100vh - 72px);
 }
 
@@ -108,7 +108,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-image: url(/images/Screenshot\ 2023-04-23\ 062814.jpg);
+    background-image: url(./images/Screenshot\ 2023-04-23\ 062814.jpg);
     background-size: cover;
     height: 20rem;
 }
@@ -122,7 +122,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-image: url(/images/Screenshot\ 2023-04-23\ 075524.png);
+    background-image: url(./images/Screenshot\ 2023-04-23\ 075524.png);
     background-size: cover;
     height: 20rem;
 }
@@ -132,7 +132,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-image: url(/images/Screenshot\ 2023-04-23\ 080005.png);
+    background-image: url(./images/Screenshot\ 2023-04-23\ 080005.png);
     background-size: cover;
     height: 20rem;
 }
